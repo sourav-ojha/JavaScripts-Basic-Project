@@ -1,0 +1,53 @@
+body{
+    margin: auto;
+}
+.one{
+    text-align: center;
+    font-family: cursive;
+    margin: auto;
+    margin-top: 20%;
+}
+
+
+.nav > a{
+    display: block;
+    float: left;
+    font-family: sans-serif;
+    padding: 10px;
+    
+}
+
+.nav > a:hover{
+    background-color: hotpink;
+    font-size: x-large;
+}
+
+.clear_fix{
+    clear: both;
+}
+
+table.list  td  a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+table.list  td  a:hover{
+    font-style: italic;
+    font-size: xx-large;
+    
+}
+table.list ,td, th{
+    padding: 3px;
+  
+    border-collapse: collapse;
+    width: 100%;
+     height: 40px;
+font-size: x-large;
+}
+
+table.list th {
+    text-align: left;
+        
+}
+

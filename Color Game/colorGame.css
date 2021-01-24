@@ -1,0 +1,100 @@
+body{
+    margin: 0%;
+    background-color:black;
+    color:white;
+    font-size: 2em;
+    letter-spacing: 2px;
+    height: auto;
+}
+
+.header{
+    margin: 0%;
+    padding: 2%;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: royalblue ;
+}
+
+.stripe{
+    background-color: white;
+    margin: 0%;
+    
+    /* width: 30%;   */
+}
+button{
+    background-color: white;
+    border: none;
+    height: 100%;
+    color: royalblue;
+    font-size: 1em;
+    padding: 1%;
+    letter-spacing: 1px;
+    display: inline-block;
+    width: 19%;
+    
+}
+.mode{
+    float:right;
+}
+#message{
+    text-align: center;
+    display: inline-block;
+    /* padding: 50px; */
+    font-size: 1.2em;
+    color: red;
+    width: 40%;
+}
+
+/* .mode{} */
+
+#newgame:hover, .mode:hover{
+    background-color: royalblue;
+    color: white;
+}
+
+.selected{
+    background-color: royalblue;
+    color:white;
+    
+}
+
+.content, #pop{
+    margin-left: 15%;
+    margin-right: 10%;
+    height: 100px;
+    width: 70%;
+   
+}
+.square{
+    margin: 10px ;
+    padding:14% ;
+    float: left;
+}
+.square:hover{
+    cursor: pointer;
+
+}
+#pop{
+    box-sizing: border-box;
+    color:red;
+    padding: 10%;
+    left:10%;
+    
+    display: block;
+    width: 440px;
+    text-align: center;
+    position: absolute;
+    background-color: white;
+    opacity: 0.5;
+    /* vertical-align: middle; */
+}
+ @media screen and (max-width:830px){
+    .stripe{
+        font-size: small;
+        font-weight: bold;
+    }
+    #message{
+         width:150px
+    }
+    
+} 

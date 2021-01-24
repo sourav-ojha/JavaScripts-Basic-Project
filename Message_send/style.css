@@ -1,0 +1,60 @@
+.body{
+    margin: auto;
+    margin-top: 10%;
+    background-color: burlywood;
+}
+.container{
+    margin: auto;
+    width: 40%;
+    height: 70%;
+    padding: 5%;
+    text-align: center;
+    background-color: aqua  ;
+    font-size: x-large;
+}
+
+
+
+.content{
+    
+    margin: auto;
+    padding: 10px;  
+}
+
+.content > div > input{
+    width: 100%;
+    padding: 5px;
+    
+}
+
+
+
+.content > div > input:focus {
+    background-color: chartreuse;
+}
+
+.container > div > p{
+    color: chocolate;
+    padding: 5px;
+    font-size: large;
+}
+
+#lst_msg{
+    background-color: purple;
+    color: white;
+}
+
+.popup{
+    display: none;
+    text-align: left;
+}
+
+.btn{
+    padding: 4px;
+    font-family: sans-serif;
+    font-size: x-large;
+    color: wheat;
+    background-color: blueviolet;
+}
+
+

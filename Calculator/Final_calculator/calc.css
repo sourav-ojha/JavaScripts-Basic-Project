@@ -1,0 +1,100 @@
+body{
+    width: 470px;
+    margin: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 5px;
+    font-size: 1.4em;
+}
+
+.calculator {
+    padding: 20px;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 1px;
+    
+  }
+
+#author{
+    font-size: 1em;
+    text-align: center;
+    font-family: cursive;
+    
+    padding: 4px;
+    
+    float: left;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+#author  li{
+    display: inline-block;
+    padding: 2px;
+}
+
+.input{
+    border: 1px solid #dddddd;
+    border-radius: 1px;
+    height: 100px;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-align: right;
+    font-size: 2em;
+    transition: all .2s ease-in-out;
+    overflow-x: scroll;
+}
+.input:hover{
+    border: 1px solid black;
+    -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.operator div, .num div, .equalto {
+    display: inline-block;
+    border: 1px solid #bbbbbb;
+    border-radius: 1px;
+    width: 70px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 4px 10px 0;
+    cursor: pointer;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+
+}
+.operator div:hover{
+    background-color: #dddddd;
+    -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #aaaaaa;
+}
+.operator div:active, .num div:active, .equalto:active{
+    font-weight: bold;
+}
+.left-panel{
+    display: inline-block;
+}
+.num div:hover, .equalto:hover{
+    background-color: #f9f9f9;
+    border-color: #bbb;
+    -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+#triangle{
+    background-color: rgba(245, 158, 19, 0.931);
+    border-color: orangered;
+}
+
+.equalto{
+    width: 17%;
+    padding: 95px 10px;
+    margin: 10px 6px 10px 0;
+    vertical-align: top;
+    color: #fff;
+    background-color: #4d90fe;
+
+}
+
+.equalto:hover{
+    background-color: #307CF9;
+    border-color: #1857BB;
+}

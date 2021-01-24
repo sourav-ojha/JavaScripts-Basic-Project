@@ -1,0 +1,47 @@
+.body{
+    margin:auto;
+    background-color: magenta;    
+    height: auto;
+}
+
+.container{
+    margin: auto;
+    background-color:white;
+    border: 5px solid blue;
+    height: 30%;
+    width: 75%;
+    padding: 3%;
+}
+
+.mybtn{
+    padding: 2%;
+    font-size: 25px;
+    font-family: cursive;
+    color: blue;
+    background-color: pink;
+    border: blueviolet 2px solid;
+}
+
+.mybtn:hover{
+    background-color: gray;
+    color: white;
+    border: solid 5px red;
+}
+
+.container > div {
+    padding: 10px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    text-align:left;
+}
+#author{
+    padding: 0px;
+    float: right;
+    text-align: right;
+    font-size: large;
+    color: palevioletred;
+    font-family: cursive;
+    font-style: italic;
+    
+
+}

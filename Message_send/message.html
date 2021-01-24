@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+    
+</head>
+<body class="body">
+    <div class="nav"><a href="../index.html" >Home</a></div>
+    <div class="clear_fix"></div>
+    <div class="container">
+        <div class="content">
+            <h3>A message you would like to pass</h3>
+            <div>
+                <input type="text" id="msg"   ><br>
+                <center><button class="btn" onclick="send()">send</button></center> 
+            </div>
+                 
+        </div>
+
+        <div>
+            <p>Last message delivered</p>
+            <p id="lst_msg"> </p><br>
+            <button onclick="show_msg()" class="btn" >show msg</button>
+            <button onclick="hide_msg()" class="btn">hide msg</button>
+            
+            <div class="popup" id="popup">
+                message delivered : <span id="n"></span> <br>
+                <ol id="dldmsg">
+
+                </ol>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="send.js"></script>
+    
+</body>
+</html>
